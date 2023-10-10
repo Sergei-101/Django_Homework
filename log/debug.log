@@ -2127,3 +2127,388 @@ INFO 2023-10-05 18:24:09,646 views 7152 4328 Показана информаци
 INFO 2023-10-05 18:24:09,647 basehttp 7152 4328 "GET / HTTP/1.1" 200 548
 INFO 2023-10-05 18:24:23,973 basehttp 7152 4328 "GET /les2/all_orders_sorted/30/7/ HTTP/1.1" 200 5856
 INFO 2023-10-05 18:24:35,818 basehttp 7152 4328 "GET /les2/all_orders/30/ HTTP/1.1" 200 12336
+INFO 2023-10-10 20:26:40,409 autoreload 148 6236 Watching for file changes with StatReloader
+INFO 2023-10-10 20:27:40,157 autoreload 148 6236 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:27:40,940 autoreload 4684 2308 Watching for file changes with StatReloader
+INFO 2023-10-10 20:28:35,419 autoreload 4684 2308 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:28:36,221 autoreload 9664 3544 Watching for file changes with StatReloader
+INFO 2023-10-10 20:29:12,973 autoreload 9664 3544 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\urls.py changed, reloading.
+INFO 2023-10-10 20:29:13,751 autoreload 13292 7236 Watching for file changes with StatReloader
+INFO 2023-10-10 20:29:16,501 views 13292 15200 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 20:29:16,503 basehttp 13292 15200 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-10 20:29:16,610 log 13292 15200 Not Found: /favicon.ico
+WARNING 2023-10-10 20:29:16,610 basehttp 13292 15200 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-10 20:29:20,966 basehttp 13292 15200 "GET /les2/ HTTP/1.1" 200 2125
+ERROR 2023-10-10 20:29:25,040 log 13292 15200 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR 2023-10-10 20:29:25,057 basehttp 13292 15200 "GET /les3/ HTTP/1.1" 500 80721
+INFO 2023-10-10 20:31:14,369 autoreload 13292 7236 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:31:15,323 autoreload 12356 4548 Watching for file changes with StatReloader
+ERROR 2023-10-10 20:31:21,034 log 12356 12020 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp4/index.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/index.html
+ERROR 2023-10-10 20:31:21,050 basehttp 12356 12020 "GET /les3/ HTTP/1.1" 500 80778
+INFO 2023-10-10 20:32:17,841 autoreload 12356 4548 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:32:18,660 autoreload 10852 7760 Watching for file changes with StatReloader
+INFO 2023-10-10 20:32:20,378 views 10852 4164 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 20:32:20,379 basehttp 10852 4164 "GET / HTTP/1.1" 200 548
+ERROR 2023-10-10 20:32:28,910 log 10852 4164 Internal Server Error: /les3/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp3/index.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index.html
+ERROR 2023-10-10 20:32:28,910 basehttp 10852 4164 "GET /les3/ HTTP/1.1" 500 80641
+INFO 2023-10-10 20:33:37,978 autoreload 10852 7760 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\urls.py changed, reloading.
+INFO 2023-10-10 20:33:38,805 autoreload 5968 12256 Watching for file changes with StatReloader
+INFO 2023-10-10 20:33:40,332 views 5968 2916 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 20:33:40,333 basehttp 5968 2916 "GET / HTTP/1.1" 200 548
+INFO 2023-10-10 20:33:51,686 basehttp 5968 2916 "GET /les3/user_form HTTP/1.1" 301 0
+ERROR 2023-10-10 20:33:51,717 log 5968 4116 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp3/index.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index.html
+ERROR 2023-10-10 20:33:51,732 basehttp 5968 4116 "GET /les3/user_form/ HTTP/1.1" 500 80761
+ERROR 2023-10-10 20:37:33,174 log 5968 4116 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp3/index.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index.html
+ERROR 2023-10-10 20:37:33,174 basehttp 5968 4116 "GET /les3/user_form/ HTTP/1.1" 500 80898
+ERROR 2023-10-10 20:37:34,139 log 5968 4116 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp3/index.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index.html
+ERROR 2023-10-10 20:37:34,141 basehttp 5968 4116 "GET /les3/user_form/ HTTP/1.1" 500 80898
+WARNING 2023-10-10 20:37:37,966 log 5968 4116 Not Found: /les3/
+WARNING 2023-10-10 20:37:37,967 basehttp 5968 4116 "GET /les3/ HTTP/1.1" 404 2708
+ERROR 2023-10-10 20:37:48,087 log 5968 4116 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 18, in user_form
+    return render(request, 'myapp3/index.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index.html
+ERROR 2023-10-10 20:37:48,087 basehttp 5968 4116 "GET /les3/user_form/ HTTP/1.1" 500 80761
+INFO 2023-10-10 20:38:10,531 autoreload 12980 4360 Watching for file changes with StatReloader
+INFO 2023-10-10 20:38:13,476 views 12980 11256 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 20:38:13,476 basehttp 12980 11256 "GET / HTTP/1.1" 200 548
+INFO 2023-10-10 20:38:26,751 basehttp 12980 11256 "GET /les3/user_form/ HTTP/1.1" 200 2874
+ERROR 2023-10-10 20:38:47,967 log 12980 11256 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 20:38:47,967 basehttp 12980 11256 "POST /les3/user_form/ HTTP/1.1" 500 68240
+INFO 2023-10-10 20:39:13,898 autoreload 12980 4360 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:39:14,804 autoreload 15008 11848 Watching for file changes with StatReloader
+ERROR 2023-10-10 20:39:17,810 log 15008 1908 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 20:39:17,821 basehttp 15008 1908 "POST /les3/user_form/ HTTP/1.1" 500 68240
+ERROR 2023-10-10 20:39:21,622 log 15008 1908 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 20:39:21,626 basehttp 15008 1908 "POST /les3/user_form/ HTTP/1.1" 500 68240
+INFO 2023-10-10 20:39:25,568 basehttp 15008 1908 "GET /les3/user_form/ HTTP/1.1" 200 2874
+ERROR 2023-10-10 20:39:31,384 log 15008 1908 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 20:39:31,384 basehttp 15008 1908 "POST /les3/user_form/ HTTP/1.1" 500 68234
+INFO 2023-10-10 20:39:51,654 autoreload 15008 11848 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:39:52,593 autoreload 13636 5232 Watching for file changes with StatReloader
+INFO 2023-10-10 20:40:43,440 views 13636 13932 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 20:40:43,442 basehttp 13636 13932 "GET / HTTP/1.1" 200 548
+INFO 2023-10-10 20:40:53,441 basehttp 13636 13932 "GET /les3/user_form/ HTTP/1.1" 200 2747
+ERROR 2023-10-10 20:41:02,191 log 13636 13932 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 20:41:02,192 basehttp 13636 13932 "POST /les3/user_form/ HTTP/1.1" 500 68239
+INFO 2023-10-10 20:44:17,690 autoreload 13636 5232 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-10 20:46:46,495 autoreload 2196 12008 Watching for file changes with StatReloader
+INFO 2023-10-10 20:46:47,799 views 2196 15208 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 20:46:47,801 basehttp 2196 15208 "GET / HTTP/1.1" 200 548
+INFO 2023-10-10 20:46:55,765 basehttp 2196 15208 "GET /les3/many_fields_form HTTP/1.1" 301 0
+INFO 2023-10-10 20:46:55,787 basehttp 2196 13476 "GET /les3/many_fields_form/ HTTP/1.1" 200 3381
+INFO 2023-10-10 20:47:18,108 basehttp 2196 13476 "POST /les3/many_fields_form/ HTTP/1.1" 200 3448
+INFO 2023-10-10 20:47:20,030 basehttp 2196 13476 "POST /les3/many_fields_form/ HTTP/1.1" 200 3448
+INFO 2023-10-10 20:47:21,630 basehttp 2196 13476 "POST /les3/many_fields_form/ HTTP/1.1" 200 3448
+INFO 2023-10-10 20:47:23,113 basehttp 2196 13476 "POST /les3/many_fields_form/ HTTP/1.1" 200 3448
+INFO 2023-10-10 20:47:25,313 basehttp 2196 13476 "POST /les3/many_fields_form/ HTTP/1.1" 200 3448
+INFO 2023-10-10 20:47:27,712 basehttp 2196 13476 "POST /les3/many_fields_form/ HTTP/1.1" 200 3448
+INFO 2023-10-10 20:51:12,237 autoreload 2196 12008 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:51:13,516 autoreload 3460 7904 Watching for file changes with StatReloader
+INFO 2023-10-10 20:53:44,094 autoreload 3460 7904 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 20:53:45,078 autoreload 3768 7144 Watching for file changes with StatReloader
+INFO 2023-10-10 21:01:08,404 autoreload 3768 7144 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:01:09,870 autoreload 3728 3200 Watching for file changes with StatReloader
+INFO 2023-10-10 21:05:48,410 autoreload 3728 3200 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:05:50,418 autoreload 6236 2176 Watching for file changes with StatReloader
+INFO 2023-10-10 21:06:05,375 autoreload 11452 5860 Watching for file changes with StatReloader
+INFO 2023-10-10 21:08:20,727 autoreload 11452 5860 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:08:22,337 autoreload 6796 4628 Watching for file changes with StatReloader
+INFO 2023-10-10 21:08:26,388 views 6796 3900 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 21:08:26,389 basehttp 6796 3900 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-10 21:08:28,593 log 6796 3900 Not Found: /favicon.ico
+WARNING 2023-10-10 21:08:28,594 basehttp 6796 3900 "GET /favicon.ico HTTP/1.1" 404 2651
+WARNING 2023-10-10 21:08:53,424 log 6796 8480 Not Found: /les3/many_fields_form_widjet/
+WARNING 2023-10-10 21:08:53,424 basehttp 6796 8480 "GET /les3/many_fields_form_widjet/ HTTP/1.1" 404 3182
+INFO 2023-10-10 21:09:06,086 basehttp 6796 9360 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:09:53,960 autoreload 6796 4628 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:09:56,893 autoreload 248 4184 Watching for file changes with StatReloader
+INFO 2023-10-10 21:10:00,630 basehttp 248 8968 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:11:00,224 autoreload 248 4184 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-10 21:11:01,594 autoreload 12236 10144 Watching for file changes with StatReloader
+INFO 2023-10-10 21:11:04,935 basehttp 12236 9620 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:11:10,276 basehttp 12236 13708 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:11:27,011 autoreload 13556 9020 Watching for file changes with StatReloader
+INFO 2023-10-10 21:11:29,321 views 13556 8824 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 21:11:29,323 basehttp 13556 8824 "GET / HTTP/1.1" 200 548
+INFO 2023-10-10 21:11:32,799 basehttp 13556 8824 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:12:42,216 basehttp 13556 1192 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:12:56,074 basehttp 13556 6752 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+WARNING 2023-10-10 21:12:56,190 basehttp 13556 6752 "GET /static/style.css HTTP/1.1" 404 1786
+WARNING 2023-10-10 21:12:56,345 log 13556 4400 Not Found: /favicon.ico
+WARNING 2023-10-10 21:12:56,346 basehttp 13556 4400 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-10 21:13:02,489 basehttp 13556 3872 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+WARNING 2023-10-10 21:13:02,591 basehttp 13556 3872 "GET /static/style.css HTTP/1.1" 404 1786
+INFO 2023-10-10 21:13:11,591 basehttp 13556 12164 "GET /les2/ HTTP/1.1" 200 2125
+WARNING 2023-10-10 21:13:11,640 basehttp 13556 12164 "GET /static/style.css HTTP/1.1" 404 1786
+INFO 2023-10-10 21:13:23,732 basehttp 13556 10884 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3381
+INFO 2023-10-10 21:16:19,475 autoreload 13556 9020 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\models.py changed, reloading.
+INFO 2023-10-10 21:27:00,527 autoreload 7724 248 Watching for file changes with StatReloader
+INFO 2023-10-10 21:27:03,368 views 7724 13244 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 21:27:03,370 basehttp 7724 13244 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-10 21:27:22,411 log 7724 6300 Not Found: /les2/add_user/
+WARNING 2023-10-10 21:27:22,414 basehttp 7724 6300 "GET /les2/add_user/ HTTP/1.1" 404 3160
+ERROR 2023-10-10 21:27:39,791 log 7724 11936 Internal Server Error: /les3/add_user/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.add_user didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 21:27:39,798 basehttp 7724 11936 "GET /les3/add_user/ HTTP/1.1" 500 66999
+INFO 2023-10-10 21:29:38,059 autoreload 7724 248 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:29:39,872 autoreload 8588 11976 Watching for file changes with StatReloader
+ERROR 2023-10-10 21:29:44,200 log 8588 8616 Internal Server Error: /les3/add_user/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 57, in add_user
+    return render(request, 'myapp3/add_user.html', {'form':form, 'message': message})
+                                                           ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2023-10-10 21:29:44,205 basehttp 8588 8616 "GET /les3/add_user/ HTTP/1.1" 500 65848
+ERROR 2023-10-10 21:29:45,449 log 8588 8616 Internal Server Error: /les3/add_user/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 57, in add_user
+    return render(request, 'myapp3/add_user.html', {'form':form, 'message': message})
+                                                           ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2023-10-10 21:29:45,453 basehttp 8588 8616 "GET /les3/add_user/ HTTP/1.1" 500 65848
+ERROR 2023-10-10 21:29:46,237 log 8588 8616 Internal Server Error: /les3/add_user/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 57, in add_user
+    return render(request, 'myapp3/add_user.html', {'form':form, 'message': message})
+                                                           ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2023-10-10 21:29:46,241 basehttp 8588 8616 "GET /les3/add_user/ HTTP/1.1" 500 65848
+ERROR 2023-10-10 21:29:46,597 log 8588 8616 Internal Server Error: /les3/add_user/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 57, in add_user
+    return render(request, 'myapp3/add_user.html', {'form':form, 'message': message})
+                                                           ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2023-10-10 21:29:46,606 basehttp 8588 8616 "GET /les3/add_user/ HTTP/1.1" 500 65848
+INFO 2023-10-10 21:30:30,359 autoreload 8588 11976 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:30:32,187 autoreload 6220 13552 Watching for file changes with StatReloader
+ERROR 2023-10-10 21:30:36,369 log 6220 10772 Internal Server Error: /les3/add_user/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.add_user didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-10 21:30:36,385 basehttp 6220 10772 "GET /les3/add_user/ HTTP/1.1" 500 67136
+INFO 2023-10-10 21:31:51,159 autoreload 6220 13552 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-10 21:31:53,426 autoreload 8180 5184 Watching for file changes with StatReloader
+INFO 2023-10-10 21:31:57,575 basehttp 8180 5292 "GET /les3/add_user/ HTTP/1.1" 200 2779
+INFO 2023-10-10 21:32:15,425 basehttp 8180 5384 "POST /les3/add_user/ HTTP/1.1" 200 2843
+INFO 2023-10-10 21:47:47,013 autoreload 12316 6928 Watching for file changes with StatReloader
+INFO 2023-10-10 21:47:51,234 views 12316 15220 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-10 21:47:51,236 basehttp 12316 15220 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-10 21:48:00,123 log 12316 15220 Not Found: /les3/
+WARNING 2023-10-10 21:48:00,124 basehttp 12316 15220 "GET /les3/ HTTP/1.1" 404 3468
+INFO 2023-10-10 21:48:07,506 basehttp 12316 15220 "GET /les3/upload/ HTTP/1.1" 200 2473
+INFO 2023-10-10 21:48:46,932 basehttp 12316 8976 "GET /les3/upload/ HTTP/1.1" 200 2473

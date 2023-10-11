@@ -5,7 +5,7 @@ class UserForm(forms.Form):
     name = forms.CharField(max_length=50)
     email = forms.CharField(max_length=20)
     age = forms.IntegerField(min_value=0, max_value=120)
-    image = forms.ImageField()
+
 
 
 class ManyFieldsForm(forms.Form):
@@ -37,3 +37,16 @@ class ManyFieldsFormWidget(forms.Form):
 
 class ImageForm(forms.Form):
     image = forms.ImageField()
+
+
+class UpdateProduct(forms.Form):
+    id_product = forms.IntegerField()
+    product_name = forms.CharField(max_length=50)
+    quantity = forms.IntegerField(min_value=0)
+
+class AddProduct(forms.Form):
+    product_name = forms.CharField(max_length=50)
+    product_description = forms.CharField(max_length=300)
+    price_product = forms.DecimalField(max_digits=8, decimal_places=2)
+    quantity_product = forms.IntegerField(min_value=0)
+    images = forms.ImageField()

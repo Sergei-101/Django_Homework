@@ -2512,3 +2512,178 @@ WARNING 2023-10-10 21:48:00,123 log 12316 15220 Not Found: /les3/
 WARNING 2023-10-10 21:48:00,124 basehttp 12316 15220 "GET /les3/ HTTP/1.1" 404 3468
 INFO 2023-10-10 21:48:07,506 basehttp 12316 15220 "GET /les3/upload/ HTTP/1.1" 200 2473
 INFO 2023-10-10 21:48:46,932 basehttp 12316 8976 "GET /les3/upload/ HTTP/1.1" 200 2473
+INFO 2023-10-11 19:25:02,967 autoreload 676 11180 Watching for file changes with StatReloader
+INFO 2023-10-11 19:25:05,120 views 676 9276 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-11 19:25:05,135 basehttp 676 9276 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-11 19:25:05,302 log 676 9276 Not Found: /favicon.ico
+WARNING 2023-10-11 19:25:05,302 basehttp 676 9276 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-11 19:25:18,051 basehttp 676 9276 "GET /les3/update_product/ HTTP/1.1" 200 2924
+INFO 2023-10-11 19:25:48,664 basehttp 676 9276 "POST /les3/update_product/ HTTP/1.1" 200 2930
+WARNING 2023-10-11 19:25:48,710 basehttp 676 9276 "GET /static/bullet.png HTTP/1.1" 404 1789
+INFO 2023-10-11 19:25:59,926 basehttp 676 11492 "POST /les3/update_product/ HTTP/1.1" 200 2867
+INFO 2023-10-11 19:26:27,818 basehttp 676 11492 "GET /les3/user_form/ HTTP/1.1" 200 2895
+ERROR 2023-10-11 19:26:42,051 log 676 11492 Internal Server Error: /les3/user_form/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp3.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-10-11 19:26:42,053 basehttp 676 11492 "POST /les3/user_form/ HTTP/1.1" 500 68467
+INFO 2023-10-11 19:27:34,879 autoreload 676 11180 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-11 19:27:36,487 autoreload 11620 6832 Watching for file changes with StatReloader
+INFO 2023-10-11 19:27:47,648 basehttp 11620 2728 "GET /les3/user_form/ HTTP/1.1" 200 2750
+INFO 2023-10-11 19:27:57,368 basehttp 11620 2728 "GET /les3/many_fields_form/ HTTP/1.1" 200 3384
+INFO 2023-10-11 19:28:10,181 basehttp 11620 2728 "GET /les3/many_fields_form_widget/ HTTP/1.1" 200 3384
+INFO 2023-10-11 19:28:18,518 basehttp 11620 2728 "GET /les3/add_user/ HTTP/1.1" 200 2779
+INFO 2023-10-11 19:28:28,420 basehttp 11620 2728 "GET /les3/upload/ HTTP/1.1" 200 2473
+INFO 2023-10-11 19:28:34,013 basehttp 11620 2728 "POST /les3/upload/ HTTP/1.1" 200 2535
+WARNING 2023-10-11 19:28:34,071 basehttp 11620 2728 "GET /static/bullet.png HTTP/1.1" 404 1789
+INFO 2023-10-11 19:28:45,139 basehttp 11620 13760 "POST /les3/upload/ HTTP/1.1" 200 2535
+INFO 2023-10-11 19:31:14,566 basehttp 11620 15188 "POST /les3/upload/ HTTP/1.1" 200 2565
+INFO 2023-10-11 19:31:24,955 basehttp 11620 15188 "POST /les3/upload/ HTTP/1.1" 200 2503
+INFO 2023-10-11 19:31:52,788 basehttp 11620 15188 "GET /les3/add_user/ HTTP/1.1" 200 2809
+INFO 2023-10-11 19:32:02,617 basehttp 11620 15188 "POST /les3/add_user/ HTTP/1.1" 200 2861
+INFO 2023-10-11 19:32:23,378 basehttp 11620 15188 "GET /les3/update_product/ HTTP/1.1" 200 2809
+INFO 2023-10-11 19:34:19,680 autoreload 11620 6832 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:34:21,180 autoreload 14372 12620 Watching for file changes with StatReloader
+INFO 2023-10-11 19:34:21,512 basehttp 14372 11196 "GET /les3/update_product/ HTTP/1.1" 200 2859
+INFO 2023-10-11 19:38:10,287 autoreload 14372 12620 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:38:11,736 autoreload 792 14696 Watching for file changes with StatReloader
+INFO 2023-10-11 19:38:12,121 basehttp 792 5176 "GET /les3/update_product/ HTTP/1.1" 200 2859
+ERROR 2023-10-11 19:38:36,309 log 792 5176 Internal Server Error: /les3/update_product/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 78, in update_product
+    product_name = form.cleaned_data['name']
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+ERROR 2023-10-11 19:38:36,311 basehttp 792 5176 "POST /les3/update_product/ HTTP/1.1" 500 68114
+INFO 2023-10-11 19:39:08,460 autoreload 792 14696 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:39:09,604 autoreload 13948 9900 Watching for file changes with StatReloader
+INFO 2023-10-11 19:39:24,252 autoreload 13948 9900 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-11 19:39:25,807 autoreload 9816 11144 Watching for file changes with StatReloader
+INFO 2023-10-11 19:39:26,195 basehttp 9816 11492 "POST /les3/update_product/ HTTP/1.1" 200 3005
+INFO 2023-10-11 19:39:32,892 basehttp 9816 13508 "POST /les3/update_product/ HTTP/1.1" 200 3002
+INFO 2023-10-11 19:42:16,178 autoreload 9816 11144 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:42:17,922 autoreload 7348 8068 Watching for file changes with StatReloader
+INFO 2023-10-11 19:42:18,821 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3011
+INFO 2023-10-11 19:42:25,718 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3011
+INFO 2023-10-11 19:42:28,555 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3011
+INFO 2023-10-11 19:42:39,446 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3014
+INFO 2023-10-11 19:42:54,890 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3011
+INFO 2023-10-11 19:42:56,371 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3011
+INFO 2023-10-11 19:42:59,945 basehttp 7348 5052 "POST /les3/update_product/ HTTP/1.1" 200 3011
+INFO 2023-10-11 19:43:19,354 autoreload 7348 8068 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:43:20,398 autoreload 8804 11936 Watching for file changes with StatReloader
+INFO 2023-10-11 19:43:23,731 basehttp 8804 5176 "POST /les3/update_product/ HTTP/1.1" 200 2974
+INFO 2023-10-11 19:43:49,974 autoreload 8804 11936 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:43:51,269 autoreload 1460 7756 Watching for file changes with StatReloader
+INFO 2023-10-11 19:43:51,604 basehttp 1460 15100 "POST /les3/update_product/ HTTP/1.1" 200 2949
+INFO 2023-10-11 19:44:02,647 autoreload 1460 7756 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 19:44:04,089 autoreload 14944 268 Watching for file changes with StatReloader
+INFO 2023-10-11 19:44:04,627 basehttp 14944 7944 "POST /les3/update_product/ HTTP/1.1" 200 2940
+INFO 2023-10-11 19:44:06,655 basehttp 14944 7944 "POST /les3/update_product/ HTTP/1.1" 200 2940
+INFO 2023-10-11 20:36:20,072 autoreload 11356 5384 Watching for file changes with StatReloader
+INFO 2023-10-11 20:38:16,344 autoreload 11356 5384 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-11 20:38:18,193 autoreload 12212 9268 Watching for file changes with StatReloader
+INFO 2023-10-11 20:38:21,250 views 12212 14900 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-11 20:38:21,254 basehttp 12212 14900 "GET / HTTP/1.1" 200 548
+INFO 2023-10-11 20:38:39,197 basehttp 12212 14900 "GET /les3/add_product/ HTTP/1.1" 200 3059
+INFO 2023-10-11 20:39:47,545 basehttp 12212 14900 "POST /les3/add_product/ HTTP/1.1" 200 3153
+WARNING 2023-10-11 20:39:47,602 basehttp 12212 14900 "GET /static/bullet.png HTTP/1.1" 404 1789
+INFO 2023-10-11 20:40:49,064 basehttp 12212 7760 "POST /les3/add_product/ HTTP/1.1" 200 3153
+INFO 2023-10-11 20:41:49,731 autoreload 12212 9268 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 20:41:51,330 autoreload 14380 11200 Watching for file changes with StatReloader
+INFO 2023-10-11 20:42:02,228 basehttp 14380 14400 "POST /les3/add_product/ HTTP/1.1" 200 3153
+INFO 2023-10-11 20:43:54,353 autoreload 14380 11200 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 20:43:55,962 autoreload 1164 12256 Watching for file changes with StatReloader
+INFO 2023-10-11 20:44:01,199 basehttp 1164 2324 "POST /les3/add_product/ HTTP/1.1" 200 3153
+INFO 2023-10-11 20:44:13,776 basehttp 1164 2324 "POST /les3/add_product/ HTTP/1.1" 200 3153
+INFO 2023-10-11 20:44:46,495 autoreload 12268 13344 Watching for file changes with StatReloader
+INFO 2023-10-11 20:45:01,922 views 12268 524 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-11 20:45:01,924 basehttp 12268 524 "GET / HTTP/1.1" 200 548
+INFO 2023-10-11 20:45:02,373 views 12268 524 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-11 20:45:02,378 basehttp 12268 524 "GET / HTTP/1.1" 200 548
+INFO 2023-10-11 20:51:42,129 autoreload 16344 11256 Watching for file changes with StatReloader
+INFO 2023-10-11 20:51:47,764 views 16344 13536 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-11 20:51:47,765 basehttp 16344 13536 "GET / HTTP/1.1" 200 548
+INFO 2023-10-11 20:56:00,135 basehttp 16344 13536 "GET /les3/update_product/ HTTP/1.1" 200 2858
+INFO 2023-10-11 20:56:10,181 basehttp 16344 13536 "GET /les3/add_product/ HTTP/1.1" 200 3063
+INFO 2023-10-11 20:56:31,377 basehttp 16344 13536 "POST /les3/add_product/ HTTP/1.1" 200 3155
+WARNING 2023-10-11 20:56:31,410 basehttp 16344 13536 "GET /static/bullet.png HTTP/1.1" 404 1789
+INFO 2023-10-11 20:57:17,444 autoreload 16344 11256 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-11 20:57:18,764 autoreload 6656 3896 Watching for file changes with StatReloader
+INFO 2023-10-11 20:57:26,306 basehttp 6656 16032 "POST /les3/add_product/ HTTP/1.1" 200 3414
+INFO 2023-10-11 20:57:36,882 basehttp 6656 16032 "POST /les3/add_product/ HTTP/1.1" 200 3370
+INFO 2023-10-11 20:58:14,200 autoreload 6656 3896 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 20:58:15,060 autoreload 13872 15932 Watching for file changes with StatReloader
+INFO 2023-10-11 20:58:20,579 basehttp 13872 16096 "POST /les3/add_product/ HTTP/1.1" 200 3370
+INFO 2023-10-11 20:58:27,102 basehttp 13872 16096 "POST /les3/add_product/ HTTP/1.1" 200 3370
+INFO 2023-10-11 20:58:53,218 autoreload 13872 15932 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 20:58:54,031 autoreload 12704 13764 Watching for file changes with StatReloader
+INFO 2023-10-11 20:58:59,331 basehttp 12704 16060 "POST /les3/add_product/ HTTP/1.1" 200 3370
+INFO 2023-10-11 20:59:05,410 basehttp 12704 16060 "POST /les3/add_product/ HTTP/1.1" 200 3370
+INFO 2023-10-11 20:59:31,233 autoreload 12704 13764 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\forms.py changed, reloading.
+INFO 2023-10-11 20:59:32,048 autoreload 2196 12352 Watching for file changes with StatReloader
+ERROR 2023-10-11 20:59:33,795 log 2196 13668 Internal Server Error: /les3/add_product/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py", line 104, in add_product
+    logger.info(f'Получили {product_name=}, {product_description=}, {price_product=}, {quantity_product}, {image}.')
+                                                                                                           ^^^^^
+NameError: name 'image' is not defined
+ERROR 2023-10-11 20:59:33,811 basehttp 2196 13668 "POST /les3/add_product/ HTTP/1.1" 500 69759
+INFO 2023-10-11 20:59:52,804 autoreload 2196 12352 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 20:59:53,638 autoreload 14892 11116 Watching for file changes with StatReloader
+INFO 2023-10-11 20:59:55,054 basehttp 14892 2060 "POST /les3/add_product/ HTTP/1.1" 200 3211
+INFO 2023-10-11 20:59:58,229 basehttp 14892 2060 "POST /les3/add_product/ HTTP/1.1" 200 3211
+INFO 2023-10-11 21:00:03,380 basehttp 14892 2060 "POST /les3/add_product/ HTTP/1.1" 200 3211
+INFO 2023-10-11 21:00:09,608 basehttp 14892 2060 "POST /les3/add_product/ HTTP/1.1" 200 3211
+INFO 2023-10-11 21:27:33,010 autoreload 14892 11116 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:27:33,859 autoreload 16244 3868 Watching for file changes with StatReloader
+INFO 2023-10-11 21:38:13,064 autoreload 16244 3868 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:38:13,890 autoreload 9560 9576 Watching for file changes with StatReloader
+INFO 2023-10-11 21:38:16,381 views 9560 6768 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-11 21:38:16,383 basehttp 9560 6768 "GET / HTTP/1.1" 200 548
+INFO 2023-10-11 21:38:33,277 basehttp 9560 6768 "GET /les3/add_product/ HTTP/1.1" 200 3263
+INFO 2023-10-11 21:38:55,966 basehttp 9560 6768 "POST /les3/add_product/ HTTP/1.1" 200 3367
+WARNING 2023-10-11 21:38:55,982 basehttp 9560 6768 "GET /static/bullet.png HTTP/1.1" 404 1789
+INFO 2023-10-11 21:40:33,296 autoreload 9560 9576 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:40:34,061 autoreload 10068 7080 Watching for file changes with StatReloader
+INFO 2023-10-11 21:40:45,775 basehttp 10068 6196 "POST /les3/add_product/ HTTP/1.1" 200 3367
+INFO 2023-10-11 21:42:51,980 autoreload 10068 7080 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:42:52,780 autoreload 12452 8692 Watching for file changes with StatReloader
+INFO 2023-10-11 21:42:58,703 basehttp 12452 7744 "POST /les3/add_product/ HTTP/1.1" 200 3367
+INFO 2023-10-11 21:43:18,261 autoreload 16268 6696 Watching for file changes with StatReloader
+INFO 2023-10-11 21:43:22,605 basehttp 16268 13544 "GET /les3/add_product/ HTTP/1.1" 200 3263
+INFO 2023-10-11 21:43:41,645 basehttp 16268 13544 "POST /les3/add_product/ HTTP/1.1" 200 3369
+WARNING 2023-10-11 21:43:41,669 basehttp 16268 13544 "GET /static/bullet.png HTTP/1.1" 404 1789
+INFO 2023-10-11 21:45:34,011 autoreload 16268 6696 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:45:34,789 autoreload 14368 9888 Watching for file changes with StatReloader
+INFO 2023-10-11 21:45:38,311 basehttp 14368 10644 "POST /les3/add_product/ HTTP/1.1" 200 3337
+INFO 2023-10-11 21:45:45,523 basehttp 14368 10644 "POST /les3/add_product/ HTTP/1.1" 200 3337
+INFO 2023-10-11 21:45:54,420 basehttp 14368 10644 "POST /les3/add_product/ HTTP/1.1" 200 3337
+INFO 2023-10-11 21:47:21,696 autoreload 14368 9888 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:47:22,576 autoreload 772 4716 Watching for file changes with StatReloader
+INFO 2023-10-11 21:47:31,387 basehttp 772 12196 "POST /les3/add_product/ HTTP/1.1" 200 3337
+INFO 2023-10-11 21:52:46,895 autoreload 772 4716 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:52:47,849 autoreload 7724 15268 Watching for file changes with StatReloader
+INFO 2023-10-11 21:53:08,580 basehttp 7724 16212 "POST /les3/add_product/ HTTP/1.1" 200 3351
+INFO 2023-10-11 21:54:45,664 autoreload 7724 15268 C:\Users\msv99\Desktop\Python\Django\Homework\myapp3\views.py changed, reloading.
+INFO 2023-10-11 21:54:46,473 autoreload 12640 7720 Watching for file changes with StatReloader
+INFO 2023-10-11 21:54:48,550 basehttp 12640 7928 "POST /les3/add_product/ HTTP/1.1" 200 3351
+INFO 2023-10-11 21:55:44,156 basehttp 12640 7928 "POST /les3/add_product/ HTTP/1.1" 200 3387

@@ -2687,3 +2687,895 @@ INFO 2023-10-11 21:54:45,664 autoreload 7724 15268 C:\Users\msv99\Desktop\Python
 INFO 2023-10-11 21:54:46,473 autoreload 12640 7720 Watching for file changes with StatReloader
 INFO 2023-10-11 21:54:48,550 basehttp 12640 7928 "POST /les3/add_product/ HTTP/1.1" 200 3351
 INFO 2023-10-11 21:55:44,156 basehttp 12640 7928 "POST /les3/add_product/ HTTP/1.1" 200 3387
+INFO 2023-10-13 21:01:56,395 autoreload 13224 14220 Watching for file changes with StatReloader
+INFO 2023-10-13 21:01:59,312 views 13224 13216 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-13 21:01:59,316 basehttp 13224 13216 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-13 21:01:59,411 log 13224 13216 Not Found: /favicon.ico
+WARNING 2023-10-13 21:01:59,414 basehttp 13224 13216 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-13 21:02:06,780 basehttp 13224 13216 "GET /les3/update_product/ HTTP/1.1" 200 2858
+INFO 2023-10-13 21:02:24,129 basehttp 13224 13216 "POST /les3/update_product/ HTTP/1.1" 200 2949
+INFO 2023-10-13 21:02:29,992 basehttp 13224 13216 "GET /les3/update_product/ HTTP/1.1" 200 2858
+INFO 2023-10-15 08:41:29,489 autoreload 14360 7656 Watching for file changes with StatReloader
+INFO 2023-10-15 08:41:32,044 views 14360 16336 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-15 08:41:32,051 basehttp 14360 16336 "GET / HTTP/1.1" 200 548
+WARNING 2023-10-15 08:41:32,262 log 14360 16336 Not Found: /favicon.ico
+WARNING 2023-10-15 08:41:32,267 basehttp 14360 16336 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-15 08:41:40,453 basehttp 14360 16336 "GET /admin HTTP/1.1" 301 0
+INFO 2023-10-15 08:41:40,485 basehttp 14360 2564 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:41:40,599 basehttp 14360 2564 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 08:41:41,256 basehttp 14360 2564 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-10-15 08:41:41,264 basehttp 14360 4020 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-10-15 08:41:41,264 basehttp 14360 2564 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-10-15 08:41:41,306 basehttp 14360 14912 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-15 08:41:41,323 basehttp 14360 13700 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-10-15 08:41:41,331 basehttp 14360 4636 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-10-15 08:41:41,331 basehttp 14360 15848 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-10-15 08:41:46,214 basehttp 14360 15848 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4533
+INFO 2023-10-15 08:43:29,890 autoreload 13416 15952 Watching for file changes with StatReloader
+INFO 2023-10-15 08:43:41,905 basehttp 13416 1264 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:43:42,029 basehttp 13416 1264 "GET /admin/ HTTP/1.1" 200 5699
+INFO 2023-10-15 08:43:42,210 basehttp 13416 1264 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-10-15 08:43:50,610 basehttp 13416 1264 "GET /admin/ HTTP/1.1" 200 5699
+INFO 2023-10-15 08:43:57,022 basehttp 13416 1264 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-10-15 08:43:57,056 basehttp 13416 1264 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-15 08:43:57,060 basehttp 13416 1852 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-15 08:43:57,067 basehttp 13416 2488 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:43:57,071 basehttp 13416 1264 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-15 08:43:57,071 basehttp 13416 3724 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-15 08:43:57,073 basehttp 13416 7288 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-15 08:43:57,081 basehttp 13416 2488 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-15 08:43:57,081 basehttp 13416 1852 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-15 08:43:57,085 basehttp 13416 1264 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-15 08:43:57,088 basehttp 13416 6736 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-15 08:43:57,092 basehttp 13416 7288 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-15 08:43:57,095 basehttp 13416 3724 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-15 08:43:57,109 basehttp 13416 3724 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-10-15 08:44:02,266 basehttp 13416 3724 "GET /admin/ HTTP/1.1" 200 5699
+INFO 2023-10-15 08:46:47,892 basehttp 13416 3724 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-10-15 08:46:47,937 basehttp 13416 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:47:07,687 basehttp 13416 3724 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:47:07,745 basehttp 13416 3724 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22905
+INFO 2023-10-15 08:47:07,787 basehttp 13416 7288 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-10-15 08:47:07,787 basehttp 13416 1264 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-10-15 08:47:07,787 basehttp 13416 6736 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-10-15 08:47:07,787 basehttp 13416 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:47:07,787 basehttp 13416 2488 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-10-15 08:47:07,820 basehttp 13416 3724 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-15 08:47:07,862 basehttp 13416 3724 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-10-15 08:47:07,878 basehttp 13416 1852 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-10-15 08:47:07,886 basehttp 13416 1264 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-10-15 08:47:07,886 basehttp 13416 7288 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-10-15 08:47:07,886 basehttp 13416 2488 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-15 08:47:07,888 basehttp 13416 6736 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-10-15 08:48:02,803 basehttp 13416 2488 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:48:02,854 basehttp 13416 2488 "GET /admin/auth/user/ HTTP/1.1" 200 11911
+INFO 2023-10-15 08:48:02,885 basehttp 13416 2488 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-15 08:48:02,885 basehttp 13416 6736 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-10-15 08:48:02,893 basehttp 13416 1264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:48:02,893 basehttp 13416 6736 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-15 08:48:02,911 basehttp 13416 6736 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-15 08:48:02,911 basehttp 13416 1264 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-10-15 08:48:11,751 basehttp 13416 1264 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22644
+INFO 2023-10-15 08:48:11,783 basehttp 13416 1264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:48:16,983 basehttp 13416 1264 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:48:17,016 basehttp 13416 1264 "GET /admin/auth/user/ HTTP/1.1" 200 11911
+INFO 2023-10-15 08:48:17,063 basehttp 13416 1264 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:49:37,021 basehttp 13416 1264 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-15 08:49:39,246 basehttp 13416 1264 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:49:39,254 basehttp 13416 1264 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 08:49:49,382 basehttp 13416 1264 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:49:49,400 basehttp 13416 1264 "GET /admin/ HTTP/1.1" 200 4918
+INFO 2023-10-15 08:49:56,497 basehttp 13416 1264 "GET /admin/ HTTP/1.1" 200 4918
+INFO 2023-10-15 08:55:58,342 autoreload 13416 15952 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 08:55:59,681 autoreload 12588 13884 Watching for file changes with StatReloader
+INFO 2023-10-15 08:56:29,356 autoreload 12588 13884 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 08:56:30,190 autoreload 5152 5164 Watching for file changes with StatReloader
+INFO 2023-10-15 08:56:50,747 basehttp 5152 15400 "GET /admin/ HTTP/1.1" 200 5331
+INFO 2023-10-15 08:56:53,529 basehttp 5152 15400 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 10441
+INFO 2023-10-15 08:56:53,572 basehttp 5152 15400 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:57:01,304 basehttp 5152 15400 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-15 08:57:02,735 basehttp 5152 15400 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:57:02,755 basehttp 5152 15400 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 08:57:09,116 basehttp 5152 15400 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:57:09,133 basehttp 5152 15400 "GET /admin/ HTTP/1.1" 200 6839
+INFO 2023-10-15 08:57:14,849 basehttp 5152 15400 "GET /admin/myapp2/order/add/ HTTP/1.1" 200 23763
+INFO 2023-10-15 08:57:14,887 basehttp 5152 15400 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:57:15,069 basehttp 5152 3256 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-10-15 08:57:15,073 basehttp 5152 11300 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-10-15 08:57:27,343 basehttp 5152 11300 "GET /admin/myapp2/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7163
+INFO 2023-10-15 08:57:27,381 basehttp 5152 11300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:57:38,060 basehttp 5152 11300 "GET /admin/myapp2/product/ HTTP/1.1" 200 25672
+INFO 2023-10-15 08:57:38,090 basehttp 5152 11300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:57:43,858 basehttp 5152 11300 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 11949
+INFO 2023-10-15 08:57:43,888 basehttp 5152 11300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:57:49,088 basehttp 5152 11300 "GET /admin/myapp2/user/ HTTP/1.1" 200 23815
+INFO 2023-10-15 08:57:49,119 basehttp 5152 11300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:57:59,992 basehttp 5152 11300 "GET /admin/myapp2/user/add/ HTTP/1.1" 200 11753
+INFO 2023-10-15 08:58:00,024 basehttp 5152 11300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:58:05,054 basehttp 5152 11300 "GET /admin/myapp2/order/ HTTP/1.1" 200 21850
+INFO 2023-10-15 08:58:05,080 basehttp 5152 11300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:58:18,625 basehttp 5152 8796 "GET /admin/myapp2/order/ HTTP/1.1" 302 0
+INFO 2023-10-15 08:58:18,684 basehttp 5152 8796 "GET /admin/login/?next=/admin/myapp2/order/ HTTP/1.1" 200 4293
+INFO 2023-10-15 08:58:18,753 basehttp 5152 14868 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-10-15 08:58:18,753 basehttp 5152 8796 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-10-15 08:58:18,753 basehttp 5152 10204 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-10-15 08:58:18,759 basehttp 5152 10292 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-15 08:58:18,759 basehttp 5152 9584 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-10-15 08:58:18,788 basehttp 5152 10292 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-10-15 08:58:18,798 basehttp 5152 9584 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2023-10-15 08:58:19,009 log 5152 9584 Not Found: /favicon.ico
+WARNING 2023-10-15 08:58:19,009 basehttp 5152 9584 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-15 08:58:29,597 basehttp 5152 9584 "POST /admin/login/?next=/admin/myapp2/order/ HTTP/1.1" 302 0
+WARNING 2023-10-15 08:58:29,606 log 5152 9584 Forbidden (Permission denied): /admin/myapp2/order/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1923, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-10-15 08:58:29,622 basehttp 5152 9584 "GET /admin/myapp2/order/ HTTP/1.1" 403 135
+WARNING 2023-10-15 08:58:33,521 log 5152 9584 Forbidden (Permission denied): /admin/myapp2/order/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1923, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+WARNING 2023-10-15 08:58:33,529 basehttp 5152 9584 "GET /admin/myapp2/order/ HTTP/1.1" 403 135
+INFO 2023-10-15 08:58:38,261 basehttp 5152 9584 "GET /admin/ HTTP/1.1" 200 5331
+INFO 2023-10-15 08:58:38,290 basehttp 5152 9584 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-10-15 08:58:43,187 basehttp 5152 9584 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 10441
+INFO 2023-10-15 08:58:43,209 basehttp 5152 9584 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-15 08:58:43,233 basehttp 5152 8796 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-15 08:58:43,233 basehttp 5152 14868 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-15 08:58:43,233 basehttp 5152 9584 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-15 08:58:43,233 basehttp 5152 7080 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-15 08:58:43,233 basehttp 5152 10292 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 08:58:43,249 basehttp 5152 8796 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-15 08:58:43,249 basehttp 5152 14868 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-15 08:58:43,249 basehttp 5152 8796 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-15 08:58:43,249 basehttp 5152 9584 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-15 08:58:43,249 basehttp 5152 10204 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-15 08:58:43,249 basehttp 5152 7080 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-15 08:58:43,280 basehttp 5152 7080 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-10-15 09:02:49,602 basehttp 5152 7080 "GET /admin/ HTTP/1.1" 200 5331
+INFO 2023-10-15 09:02:50,934 basehttp 5152 7080 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-15 09:02:52,424 basehttp 5152 7080 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 09:02:52,433 basehttp 5152 7080 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 09:02:58,665 basehttp 5152 7080 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 09:02:58,681 basehttp 5152 7080 "GET /admin/ HTTP/1.1" 200 6839
+INFO 2023-10-15 09:05:14,101 autoreload 5152 5164 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 09:07:08,354 autoreload 15024 14508 Watching for file changes with StatReloader
+INFO 2023-10-15 09:07:09,782 views 15024 16336 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-15 09:07:09,790 basehttp 15024 16336 "GET / HTTP/1.1" 200 548
+INFO 2023-10-15 09:07:17,829 basehttp 15024 16336 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 09:07:40,401 basehttp 15024 16336 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 12260
+INFO 2023-10-15 09:07:40,443 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:07:42,060 basehttp 15024 16336 "GET /admin/myapp2/category/add/ HTTP/1.1" 200 9578
+INFO 2023-10-15 09:07:42,095 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:08:04,119 basehttp 15024 16336 "POST /admin/myapp2/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 09:08:04,129 basehttp 15024 16336 "GET /admin/myapp2/category/add/ HTTP/1.1" 200 9889
+INFO 2023-10-15 09:08:04,171 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:08:12,646 basehttp 15024 16336 "POST /admin/myapp2/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 09:08:12,659 basehttp 15024 16336 "GET /admin/myapp2/category/add/ HTTP/1.1" 200 9885
+INFO 2023-10-15 09:08:12,700 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:08:18,722 basehttp 15024 16336 "POST /admin/myapp2/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 09:08:18,792 basehttp 15024 16336 "GET /admin/myapp2/category/ HTTP/1.1" 200 10711
+INFO 2023-10-15 09:08:18,829 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:08:21,863 basehttp 15024 16336 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 12260
+INFO 2023-10-15 09:08:21,895 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:08:27,622 basehttp 15024 16336 "GET /admin/myapp2/category/add/ HTTP/1.1" 200 9578
+INFO 2023-10-15 09:08:27,658 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:08:41,449 basehttp 15024 16336 "GET /admin/myapp2/category/ HTTP/1.1" 200 10479
+INFO 2023-10-15 09:08:41,475 basehttp 15024 16336 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:30:09,618 autoreload 3212 9188 Watching for file changes with StatReloader
+INFO 2023-10-15 09:30:13,974 basehttp 3212 10752 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 09:30:16,466 basehttp 3212 10752 "GET /admin/myapp2/category/ HTTP/1.1" 200 10479
+INFO 2023-10-15 09:30:16,507 basehttp 3212 4424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:30:16,670 basehttp 3212 10752 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-15 09:30:16,683 basehttp 3212 4424 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-15 09:30:16,734 basehttp 3212 4424 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-15 09:30:19,540 basehttp 3212 4424 "GET /admin/myapp2/category/add/ HTTP/1.1" 200 9590
+INFO 2023-10-15 09:30:19,575 basehttp 3212 4424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:30:21,366 basehttp 3212 4424 "POST /admin/myapp2/category/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 09:30:21,407 basehttp 3212 4424 "GET /admin/myapp2/category/ HTTP/1.1" 200 10891
+INFO 2023-10-15 09:30:21,440 basehttp 3212 4424 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:30:21,461 basehttp 3212 4424 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+ERROR 2023-10-15 09:30:29,262 log 3212 4424 Internal Server Error: /admin/myapp2/product/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp2_product.category_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp2_product.category_id
+ERROR 2023-10-15 09:30:29,271 basehttp 3212 4424 "GET /admin/myapp2/product/ HTTP/1.1" 500 161813
+INFO 2023-10-15 09:31:28,858 autoreload 14448 12472 Watching for file changes with StatReloader
+ERROR 2023-10-15 09:31:33,099 log 14448 15944 Internal Server Error: /admin/myapp2/product/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp2_product.category_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp2_product.category_id
+ERROR 2023-10-15 09:31:33,118 basehttp 14448 15944 "GET /admin/myapp2/product/ HTTP/1.1" 500 161950
+INFO 2023-10-15 09:31:40,371 basehttp 14448 15944 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 09:31:43,579 basehttp 14448 15944 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 14257
+INFO 2023-10-15 09:31:43,629 basehttp 14448 15944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 09:31:43,778 basehttp 14448 15944 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-10-15 09:31:43,796 basehttp 14448 13428 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+ERROR 2023-10-15 09:31:48,918 log 14448 13428 Internal Server Error: /admin/myapp2/product/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: myapp2_product.category_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: myapp2_product.category_id
+ERROR 2023-10-15 09:31:48,928 basehttp 14448 13428 "GET /admin/myapp2/product/ HTTP/1.1" 500 161816
+INFO 2023-10-15 09:31:51,448 basehttp 14448 13428 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 14257
+INFO 2023-10-15 16:39:22,165 autoreload 7544 9520 Watching for file changes with StatReloader
+INFO 2023-10-15 16:39:26,210 views 7544 11916 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-15 16:39:26,210 basehttp 7544 11916 "GET / HTTP/1.1" 200 548
+INFO 2023-10-15 16:39:26,257 basehttp 7544 11480 "GET /admin/myapp2/category/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:39:26,390 basehttp 7544 11480 "GET /admin/login/?next=/admin/myapp2/category/ HTTP/1.1" 200 4299
+WARNING 2023-10-15 16:39:27,268 log 7544 11480 Not Found: /favicon.ico
+WARNING 2023-10-15 16:39:27,268 basehttp 7544 11480 "GET /favicon.ico HTTP/1.1" 404 2651
+WARNING 2023-10-15 16:39:27,299 log 7544 11480 Not Found: /favicon.ico
+WARNING 2023-10-15 16:39:27,299 basehttp 7544 11480 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-15 16:39:35,086 basehttp 7544 9984 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:39:35,102 basehttp 7544 9984 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 16:39:41,108 basehttp 7544 9984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-15 16:39:47,175 basehttp 7544 9984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-15 16:39:57,337 basehttp 7544 9984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-15 16:40:07,335 basehttp 7544 9984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-15 16:40:14,247 basehttp 7544 9984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-15 16:40:26,228 basehttp 7544 9984 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-15 16:41:44,701 basehttp 7544 12136 "GET /admin/myapp2/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:41:44,708 basehttp 7544 12136 "GET /admin/login/?next=/admin/myapp2/product/add/ HTTP/1.1" 200 4305
+WARNING 2023-10-15 16:41:45,037 log 7544 12136 Not Found: /favicon.ico
+WARNING 2023-10-15 16:41:45,037 basehttp 7544 12136 "GET /favicon.ico HTTP/1.1" 404 2651
+INFO 2023-10-15 16:42:01,023 basehttp 7544 5796 "POST /admin/login/?next=/admin/myapp2/category/ HTTP/1.1" 200 4566
+INFO 2023-10-15 16:44:43,039 autoreload 9560 13756 Watching for file changes with StatReloader
+INFO 2023-10-15 16:44:44,953 views 9560 14888 Показана информация: <h1>Hello, world!</h1><p>Домашнее задание №1</p><p>Создайте пару представлений в вашем первом приложении:<br>— главная<br>— о себе.<br>Внутри каждого представления должна быть переменная html — многострочный текст с HTML-вёрсткой и данными о вашем первом Django-сайте и о вас.Сохраняйте в логи данные о посещении страниц.</p>
+INFO 2023-10-15 16:44:44,959 basehttp 9560 14888 "GET / HTTP/1.1" 200 548
+INFO 2023-10-15 16:44:51,315 basehttp 9560 14888 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:44:51,385 basehttp 9560 14888 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 16:44:57,948 basehttp 9560 14888 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:44:57,973 basehttp 9560 14888 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 16:45:04,050 basehttp 9560 14888 "GET /admin/myapp2/product/ HTTP/1.1" 200 8730
+INFO 2023-10-15 16:45:04,093 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:45:07,808 basehttp 9560 14888 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 14040
+INFO 2023-10-15 16:45:07,841 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:45:25,504 basehttp 9560 14888 "GET /admin/myapp2/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4490
+INFO 2023-10-15 16:45:25,548 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:45:34,740 basehttp 9560 14888 "POST /admin/myapp2/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2023-10-15 16:45:34,897 basehttp 9560 14888 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2023-10-15 16:45:59,780 basehttp 9560 14888 "POST /admin/myapp2/product/add/ HTTP/1.1" 200 14279
+INFO 2023-10-15 16:45:59,813 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:46:19,773 basehttp 9560 14888 "POST /admin/myapp2/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:46:19,800 basehttp 9560 14888 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 14425
+INFO 2023-10-15 16:46:19,836 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:46:31,694 basehttp 9560 14888 "GET /admin/myapp2/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4490
+INFO 2023-10-15 16:46:31,727 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:46:36,559 basehttp 9560 14888 "POST /admin/myapp2/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 391
+INFO 2023-10-15 16:46:51,198 basehttp 9560 14888 "POST /admin/myapp2/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:46:51,214 basehttp 9560 14888 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 14479
+INFO 2023-10-15 16:46:51,252 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:47:18,120 basehttp 9560 14888 "GET /admin/myapp2/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4490
+INFO 2023-10-15 16:47:18,159 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:47:23,810 basehttp 9560 14888 "POST /admin/myapp2/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 397
+INFO 2023-10-15 16:47:41,514 basehttp 9560 14888 "POST /admin/myapp2/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:47:41,548 basehttp 9560 14888 "GET /admin/myapp2/product/add/ HTTP/1.1" 200 14526
+INFO 2023-10-15 16:47:41,579 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:48:08,555 basehttp 9560 14888 "POST /admin/myapp2/product/add/ HTTP/1.1" 302 0
+INFO 2023-10-15 16:48:08,589 basehttp 9560 14888 "GET /admin/myapp2/product/ HTTP/1.1" 200 11173
+INFO 2023-10-15 16:48:08,625 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:48:10,583 basehttp 9560 14888 "GET /admin/myapp2/product/ HTTP/1.1" 200 10893
+INFO 2023-10-15 16:48:10,610 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:26,141 basehttp 9560 14888 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 16:50:28,357 basehttp 9560 14888 "GET /admin/myapp2/category/ HTTP/1.1" 200 10425
+INFO 2023-10-15 16:50:28,392 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:30,326 basehttp 9560 14888 "GET /admin/myapp2/order/ HTTP/1.1" 200 8716
+INFO 2023-10-15 16:50:30,361 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:31,615 basehttp 9560 14888 "GET /admin/myapp2/product/ HTTP/1.1" 200 10893
+INFO 2023-10-15 16:50:31,649 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:33,537 basehttp 9560 14888 "GET /admin/myapp2/user/ HTTP/1.1" 200 8709
+INFO 2023-10-15 16:50:33,564 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:35,638 basehttp 9560 14888 "GET /admin/auth/group/ HTTP/1.1" 200 9092
+INFO 2023-10-15 16:50:35,670 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:36,694 basehttp 9560 14888 "GET /admin/auth/user/ HTTP/1.1" 200 12756
+INFO 2023-10-15 16:50:36,719 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:45,219 basehttp 9560 14888 "GET /admin/myapp2/category/ HTTP/1.1" 200 10425
+INFO 2023-10-15 16:50:45,257 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:50:46,001 basehttp 9560 14888 "GET /admin/myapp2/product/ HTTP/1.1" 200 10893
+INFO 2023-10-15 16:50:46,028 basehttp 9560 14888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:53:02,531 autoreload 9560 13756 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 16:53:03,849 autoreload 7460 8372 Watching for file changes with StatReloader
+INFO 2023-10-15 16:53:58,943 autoreload 7460 8372 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 16:54:00,011 autoreload 14596 10448 Watching for file changes with StatReloader
+INFO 2023-10-15 16:54:06,900 basehttp 14596 15812 "GET /admin/myapp2/product/ HTTP/1.1" 200 11700
+INFO 2023-10-15 16:54:06,956 basehttp 14596 15812 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:55:36,673 autoreload 14596 10448 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 16:55:37,986 autoreload 6864 9372 Watching for file changes with StatReloader
+INFO 2023-10-15 16:55:38,386 basehttp 6864 9032 "GET /admin/myapp2/product/ HTTP/1.1" 200 12495
+INFO 2023-10-15 16:55:38,433 basehttp 6864 9032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:56:48,163 autoreload 6864 9372 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 16:56:49,444 autoreload 11436 3040 Watching for file changes with StatReloader
+INFO 2023-10-15 16:57:11,959 autoreload 11436 3040 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 16:57:13,287 autoreload 7296 8540 Watching for file changes with StatReloader
+INFO 2023-10-15 16:57:13,840 basehttp 7296 13408 "GET /admin/myapp2/product/ HTTP/1.1" 200 13639
+INFO 2023-10-15 16:57:13,909 basehttp 7296 13408 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:57:18,918 basehttp 7296 13408 "GET /admin/myapp2/product/?date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16 HTTP/1.1" 200 15021
+INFO 2023-10-15 16:57:18,953 basehttp 7296 13408 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:57:21,717 basehttp 7296 13408 "GET /admin/myapp2/product/?date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16&price_product=12.00 HTTP/1.1" 200 14972
+INFO 2023-10-15 16:57:21,744 basehttp 7296 13408 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:57:23,529 basehttp 7296 13408 "GET /admin/myapp2/product/?date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16&price_product=10.00 HTTP/1.1" 200 14020
+INFO 2023-10-15 16:57:23,560 basehttp 7296 13408 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:57:25,283 basehttp 7296 13408 "GET /admin/myapp2/product/?date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16 HTTP/1.1" 200 15021
+INFO 2023-10-15 16:57:25,310 basehttp 7296 13408 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:58:36,515 autoreload 7296 8540 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 16:58:37,716 autoreload 12620 10632 Watching for file changes with StatReloader
+INFO 2023-10-15 16:58:38,743 basehttp 12620 13700 "GET /admin/myapp2/product/?date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16 HTTP/1.1" 200 15672
+INFO 2023-10-15 16:58:38,773 basehttp 12620 13700 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:58:58,036 basehttp 12620 13700 "GET /admin/myapp2/product/?q=%D0%B7%D0%B0%D0%B9%D0%BA%D0%B0&date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16 HTTP/1.1" 200 12085
+INFO 2023-10-15 16:58:58,069 basehttp 12620 13700 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:59:03,897 basehttp 12620 13700 "GET /admin/myapp2/product/?q=%D0%97%D0%B0%D0%B9%D0%BA%D0%B0&date_add_product__gte=2023-10-08&date_add_product__lt=2023-10-16 HTTP/1.1" 200 15146
+INFO 2023-10-15 16:59:03,923 basehttp 12620 13700 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 16:59:06,387 basehttp 12620 13700 "GET /admin/myapp2/product/1/change/?_changelist_filters=q%3D%25D0%2597%25D0%25B0%25D0%25B9%25D0%25BA%25D0%25B0%26date_add_product__gte%3D2023-10-08%26date_add_product__lt%3D2023-10-16 HTTP/1.1" 200 15273
+INFO 2023-10-15 16:59:06,430 basehttp 12620 13700 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-10-15 16:59:11,705 log 12620 13700 Not Found: /media/images/Без_названия_4.png
+WARNING 2023-10-15 16:59:11,705 basehttp 12620 13700 "GET /media/images/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_4.png HTTP/1.1" 404 2788
+INFO 2023-10-15 16:59:19,987 basehttp 12620 13700 "GET /admin/myapp2/product/1/change/?_changelist_filters=q%3D%25D0%2597%25D0%25B0%25D0%25B9%25D0%25BA%25D0%25B0%26date_add_product__gte%3D2023-10-08%26date_add_product__lt%3D2023-10-16 HTTP/1.1" 200 15273
+INFO 2023-10-15 17:03:06,749 autoreload 12620 10632 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:03:08,008 autoreload 8104 6896 Watching for file changes with StatReloader
+INFO 2023-10-15 17:03:15,698 basehttp 8104 3796 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:03:15,745 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:05:33,133 basehttp 8104 3796 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:05:33,165 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:05:34,631 basehttp 8104 3796 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:05:34,653 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:05:40,007 basehttp 8104 3796 "GET /admin/myapp2/category/ HTTP/1.1" 200 10425
+INFO 2023-10-15 17:05:40,035 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:05:43,320 basehttp 8104 3796 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 17:05:45,529 basehttp 8104 3796 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:05:45,568 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:05:53,477 basehttp 8104 3796 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:05:53,502 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:05:55,027 basehttp 8104 3796 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-10-15 17:05:56,516 basehttp 8104 3796 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 17:05:56,540 basehttp 8104 3796 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-15 17:06:04,646 basehttp 8104 3796 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-15 17:06:04,660 basehttp 8104 3796 "GET /admin/ HTTP/1.1" 200 7150
+INFO 2023-10-15 17:06:07,606 basehttp 8104 3796 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:06:07,645 basehttp 8104 3796 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:08:42,245 autoreload 8104 6896 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:08:43,309 autoreload 11300 8468 Watching for file changes with StatReloader
+INFO 2023-10-15 17:08:47,556 basehttp 11300 7112 "GET /admin/myapp2/product/ HTTP/1.1" 200 14141
+INFO 2023-10-15 17:08:47,583 basehttp 11300 7112 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:12:46,418 autoreload 11300 8468 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:12:47,652 autoreload 14300 14808 Watching for file changes with StatReloader
+INFO 2023-10-15 17:14:16,579 autoreload 14300 14808 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:14:17,741 autoreload 4012 8308 Watching for file changes with StatReloader
+INFO 2023-10-15 17:14:26,147 autoreload 4012 8308 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:14:27,476 autoreload 7772 7144 Watching for file changes with StatReloader
+INFO 2023-10-15 17:14:37,600 autoreload 7772 7144 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:14:38,665 autoreload 6544 12432 Watching for file changes with StatReloader
+INFO 2023-10-15 17:15:12,617 autoreload 6544 12432 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:15:13,644 autoreload 6132 11484 Watching for file changes with StatReloader
+INFO 2023-10-15 17:16:36,747 autoreload 6132 11484 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:16:37,716 autoreload 8172 14804 Watching for file changes with StatReloader
+INFO 2023-10-15 17:16:42,548 basehttp 8172 15128 "GET /admin/myapp2/product/ HTTP/1.1" 200 11378
+INFO 2023-10-15 17:16:42,588 basehttp 8172 15128 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-15 17:16:46,455 log 8172 15128 Internal Server Error: /admin/myapp2/product/4/change/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (rating, date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (rating, date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-10-15 17:16:46,471 basehttp 8172 15128 "GET /admin/myapp2/product/4/change/ HTTP/1.1" 500 135509
+INFO 2023-10-15 17:17:13,829 autoreload 8172 14804 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:17:14,823 autoreload 11296 7244 Watching for file changes with StatReloader
+ERROR 2023-10-15 17:17:20,111 log 11296 5208 Internal Server Error: /admin/myapp2/product/4/change/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, name) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, name) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-10-15 17:17:20,127 basehttp 11296 5208 "GET /admin/myapp2/product/4/change/ HTTP/1.1" 500 135598
+INFO 2023-10-15 17:17:22,791 basehttp 11296 5208 "GET /admin/myapp2/product/ HTTP/1.1" 200 11378
+ERROR 2023-10-15 17:17:24,592 log 11296 5208 Internal Server Error: /admin/myapp2/product/3/change/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, name) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating, name) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-10-15 17:17:24,592 basehttp 11296 5208 "GET /admin/myapp2/product/3/change/ HTTP/1.1" 500 135473
+INFO 2023-10-15 17:18:33,579 autoreload 11296 7244 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:18:34,586 autoreload 4456 6620 Watching for file changes with StatReloader
+ERROR 2023-10-15 17:18:37,918 log 4456 10976 Internal Server Error: /admin/myapp2/product/3/change/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (name) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (name) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-10-15 17:18:37,937 basehttp 4456 10976 "GET /admin/myapp2/product/3/change/ HTTP/1.1" 500 134662
+INFO 2023-10-15 17:18:39,567 basehttp 4456 10976 "GET /admin/myapp2/product/ HTTP/1.1" 200 11378
+ERROR 2023-10-15 17:18:41,133 log 4456 10976 Internal Server Error: /admin/myapp2/product/1/change/
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (name) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\msv99\Desktop\Python\Django\Homework\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (name) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-10-15 17:18:41,149 basehttp 4456 10976 "GET /admin/myapp2/product/1/change/ HTTP/1.1" 500 134474
+INFO 2023-10-15 17:19:02,411 autoreload 4456 6620 C:\Users\msv99\Desktop\Python\Django\Homework\myapp4\admin.py changed, reloading.
+INFO 2023-10-15 17:19:03,350 autoreload 14868 10700 Watching for file changes with StatReloader
+INFO 2023-10-15 17:19:08,107 basehttp 14868 15200 "GET /admin/myapp2/product/ HTTP/1.1" 200 11378
+INFO 2023-10-15 17:19:09,640 basehttp 14868 15200 "GET /admin/myapp2/product/4/change/ HTTP/1.1" 200 14419
+INFO 2023-10-15 17:19:09,693 basehttp 14868 12012 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:19:09,840 basehttp 14868 15200 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-10-15 17:19:20,869 basehttp 14868 15200 "POST /admin/myapp2/product/4/change/ HTTP/1.1" 302 0
+INFO 2023-10-15 17:19:20,885 basehttp 14868 15200 "GET /admin/myapp2/product/ HTTP/1.1" 200 11663
+INFO 2023-10-15 17:19:20,917 basehttp 14868 15200 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:19:22,772 basehttp 14868 15200 "GET /admin/myapp2/product/3/change/ HTTP/1.1" 200 14439
+INFO 2023-10-15 17:19:22,800 basehttp 14868 15200 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:19:45,274 basehttp 14868 15200 "GET /admin/myapp2/product/ HTTP/1.1" 200 11378
+INFO 2023-10-15 17:19:45,306 basehttp 14868 15200 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-15 17:19:48,345 basehttp 14868 15200 "GET /admin/myapp2/product/ HTTP/1.1" 200 11378
+INFO 2023-10-15 17:19:48,367 basehttp 14868 15200 "GET /admin/jsi18n/ HTTP/1.1" 200 16066

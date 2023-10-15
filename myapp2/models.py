@@ -11,8 +11,16 @@ class User(models.Model):
     def __str__(self):
         return f'Username: {self.name}, email: {self.email},  phone: {self.phone}, address: {self.address}'
 
+class Category(models.Model):
+    name = models.CharField(max_length=50, unique=True, default=777)
+    def __str__(self):
+        return self.name
+
+
+
 class Product(models.Model):
     product_name = models.CharField(max_length=100)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
     product_description = models.TextField()
     price_product = models.DecimalField(max_digits=8, decimal_places=2)
     quantity_product = models.IntegerField()
@@ -31,3 +39,5 @@ class Order(models.Model):
 
     def __str__(self):
         return f'customer: {self.customer}, products: {self.products},  date_ordered: {self.date_ordered}, total_price: {self.total_price}'
+
+

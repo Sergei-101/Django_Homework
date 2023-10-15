@@ -20,13 +20,13 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" object-ref="schemas/main/tables/myapp2_product" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" dataset="main.auth_user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" dataset="main.myapp2_product" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" dataset="main.myapp2_order_products" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" dataset="main.myapp2_category" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" dataset="main.myapp2_order" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="bf60d890-b488-4156-8805-1c26d9900dcf" dataset="main.myapp2_user" active-filter-id="EMPTY_FILTER">
       <filter id="bb982aa6-d5bd-4c10-9a71-38f75cc2da23" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
@@ -100,7 +100,7 @@
           <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="true" />
-          <connect-automatically value="true" />
+          <connect-automatically value="false" />
           <restore-workspace value="true" />
           <restore-workspace-deep value="false" />
           <environment-type value="default" />

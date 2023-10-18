@@ -1,6 +1,8 @@
 from django import forms
 import datetime
 
+
+
 class UserForm(forms.Form):
     name = forms.CharField(max_length=50)
     email = forms.CharField(max_length=20)
@@ -50,3 +52,5 @@ class AddProduct(forms.Form):
     price_product = forms.DecimalField(max_digits=8, decimal_places=2)
     quantity_product = forms.IntegerField(min_value=0)
     images = forms.ImageField()
+
+

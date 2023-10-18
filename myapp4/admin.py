@@ -5,12 +5,17 @@ from myapp2.models import User, Product, Order, Category
 def reset_quantity(modeladmin, request, queryset):
     queryset.update(quantity=0)
 
-# class ProductAdmin(admin.ModelAdmin):
-#     list_display = ['product_name', 'category', 'price_product', 'quantity_product']
-#     ordering = ['category', '-price_product']
-#     list_filter = ['date_add_product', 'price_product']
-#     search_fields = ['product_description']
-#     search_help_text = 'Поиск по полю Описание продукта (product_description)'
+
+class OrderAdmin(admin.ModelAdmin):
+    list_display = ['customer', 'date_ordered', 'total_price']
+    ordering = ['-date_ordered']
+
+
+
+class UserAdmin(admin.ModelAdmin):
+    list_display = ['name', 'email', 'phone', 'address']
+    search_fields = ['name']
+    search_help_text = 'Поиск по Имени (name)'
 
 
 class ProductAdmin(admin.ModelAdmin):
@@ -18,7 +23,7 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = ['product_name', 'category', 'quantity_product']
 
     """Отдельный продукт."""
-    # fields = ['name', 'description', 'category', 'date_added','rating']
+
     readonly_fields = ['date_add_product']
     fieldsets = [
     (
@@ -43,20 +48,13 @@ class ProductAdmin(admin.ModelAdmin):
 
         }
     ),
-    # (
-    #     'Рейтинг и прочее',
-    #     {
-    #         'description': 'Рейтинг сформирован автоматически на основе оценок покупателей',
-    #         'fields': ['rating', 'date_added'],
-    #     }
-    # ),
-    ]
+  ]
 
 
 
-admin.site.register(User)
+admin.site.register(User, UserAdmin)
 admin.site.register(Product, ProductAdmin)
-admin.site.register(Order)
+admin.site.register(Order, OrderAdmin)
 admin.site.register(Category)
 
 

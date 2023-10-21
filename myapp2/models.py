@@ -28,7 +28,8 @@ class Product(models.Model):
     date_add_product = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f'product_name: {self.product_name}, price_product: {self.price_product},  quantity_product: {self.quantity_product}'
+        return (f'product_name: {self.product_name}, price_product: {self.price_product},'
+                f'  quantity_product: {self.quantity_product}, image: {self.image}')
 
 
 class Order(models.Model):

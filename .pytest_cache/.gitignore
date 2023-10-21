@@ -1,0 +1,5 @@
+# Created by pytest automatically.
+/venv/
+/media/
+/log/
+*.sqlite3

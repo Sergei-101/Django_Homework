@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -40,9 +41,19 @@ TEMPLATES = [
 SECRET_KEY = 'django-insecure-iwoo0fc^slmyc%l%t^1!*e_g-nd9=wwyo&m7gw8&$rg=y0du69'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = []
+STATIC_ROOT = BASE_DIR / 'static/'
+
+
+SECRET_KEY = os.getenv('SECRET_KEY')
+
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '1000sergei1000.pythonanywhere.com',
+]
 
 INTERNAL_IPS = [
     '127.0.0.1',
@@ -61,12 +72,12 @@ INSTALLED_APPS = [
     'myapp2',
     'myapp3',
     'myapp4',
-    'debug_toolbar',
+
 
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -101,10 +112,19 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '1000sergei1000$1000sergei1000$default',
+        'USER': '1000sergei1000',
+        'PASSWORD': os.getenv('12345678Sergei'),
+        'HOST': '1000sergei1000.mysql.pythonanywhere-services.com',
+        'OPTIONS': {
+            'init_command': "SET NAMES 'utf8mb4';"
+                            "SET sql_mode = 'STRICT_TRANS_TABLES'",
+                            'charset': 'utf8mb4',
+        },
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

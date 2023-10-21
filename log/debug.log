@@ -4362,3 +4362,4 @@ INFO 2023-10-21 19:41:26,976 views 3628 3464 Показана информаци
 INFO 2023-10-21 19:41:27,034 basehttp 3628 3464 "GET / HTTP/1.1" 200 12835
 INFO 2023-10-21 19:41:27,919 views 3628 3464 Показана информация: <QuerySet [<Product: product_name: Зайка, price_product: 12.00,  quantity_product: 2, image: images/Без_названия_4.png>, <Product: product_name: Бант детский, price_product: 10.00,  quantity_product: 2, image: images/Без_названия_3.png>, <Product: product_name: Горшок розовый, price_product: 12.00,  quantity_product: 5, image: images/Без_названия.png>, <Product: product_name: Горшок синий, price_product: 12.00,  quantity_product: 7, image: images/Без_названия_1.png>, <Product: product_name: test, price_product: 12.00,  quantity_product: 1, image: >]>
 INFO 2023-10-21 19:41:27,961 basehttp 3628 3464 "GET / HTTP/1.1" 200 12835
+INFO 2023-10-21 21:09:42,022 autoreload 14232 10852 Watching for file changes with StatReloader
